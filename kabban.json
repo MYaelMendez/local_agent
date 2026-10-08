@@ -1,0 +1,82 @@
+[
+  {
+    "id": "k001",
+    "intent": "Probe Victus brain via +\u00e6://route",
+    "assignee": "vice",
+    "status": "blocked",
+    "parent": null,
+    "children": [
+      "k002"
+    ],
+    "evidence": [
+      {
+        "text": "probe: Victus responsive, latency 12ms",
+        "at": "2026-10-08T19:13:53.912081+00:00"
+      }
+    ],
+    "uncertainty": [],
+    "created": "2026-10-08T19:13:06.597616+00:00",
+    "updated": "2026-10-08T19:14:04.154577+00:00",
+    "dormant_since": "2026-10-08T19:14:04.154557+00:00",
+    "glocal_tag": "task"
+  },
+  {
+    "id": "k002",
+    "intent": "Tracer glocal mesh legion-go egress",
+    "assignee": "imperial",
+    "status": "done",
+    "parent": "k001",
+    "children": [
+      "k003",
+      "k004"
+    ],
+    "evidence": [
+      {
+        "text": "trace: 3 hops, all reachable",
+        "at": "2026-10-08T19:13:54.071251+00:00"
+      }
+    ],
+    "uncertainty": [],
+    "created": "2026-10-08T19:13:06.671387+00:00",
+    "updated": "2026-10-08T19:13:54.071270+00:00",
+    "dormant_since": null
+  },
+  {
+    "id": "k003",
+    "intent": "Combine trace+probe into single exploit",
+    "assignee": "reviewer",
+    "status": "done",
+    "parent": "k002",
+    "children": [
+      "k004"
+    ],
+    "evidence": [
+      {
+        "text": "combine: single exploit packet",
+        "at": "2026-10-08T19:13:54.247153+00:00"
+      }
+    ],
+    "uncertainty": [],
+    "created": "2026-10-08T19:13:06.783624+00:00",
+    "updated": "2026-10-08T19:13:54.247186+00:00",
+    "dormant_since": null
+  },
+  {
+    "id": "k004",
+    "intent": "Signer merge vertices, output packet",
+    "assignee": "imperial",
+    "status": "done",
+    "parent": "k003",
+    "children": [],
+    "evidence": [
+      {
+        "text": "signed: hash-chained",
+        "at": "2026-10-08T19:13:54.434132+00:00"
+      }
+    ],
+    "uncertainty": [],
+    "created": "2026-10-08T19:13:06.872779+00:00",
+    "updated": "2026-10-08T19:13:54.434157+00:00",
+    "dormant_since": null
+  }
+]

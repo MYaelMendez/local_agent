@@ -1,0 +1,8 @@
+{
+  "status": "PROBING",
+  "last_probe": null,
+  "last_run": null,
+  "dormant_cutoff_hours": 24,
+  "logged": 14,
+  "task_counter": 4
+}

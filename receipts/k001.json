@@ -1,0 +1,13 @@
+{
+  "id": "k001",
+  "timestamp": "2026-10-08T19:14:04.350217+00:00",
+  "verdict": "unknown",
+  "evidence": [
+    1.0
+  ],
+  "uncertainty": [
+    0.0
+  ],
+  "trust": 1.0,
+  "qr": "75c3cc2f13c39db96fe9513ba00ee60ad572330082cf7cc82c1aa37164d7b77c"
+}
