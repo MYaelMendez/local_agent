@@ -1,0 +1,15 @@
+<svg role="img" aria-labelledby="banner-title banner-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" font-family="JetBrains Mono, ui-monospace, monospace">
+<title id="banner-title">local_agent · HUMAN://ROOT</title><desc id="banner-desc">Agente local · ejecución con evidencia. La autoridad permanece humana.</desc><defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0b0c0e" stroke-opacity=".07"/></pattern></defs>
+<rect width="1200" height="360" fill="#f3efe4"/><rect width="1200" height="360" fill="url(#g)"/>
+<rect x="0" y="0" width="1200" height="34" fill="#0b0c0e"/>
+<text x="24" y="23" font-size="15" fill="#f3efe4" letter-spacing="2">HUMAN://ROOT ◆ DEFAULT: DENY ◆ EVIDENCE ≠ AUTHORITY ◆ MANY AGENTS. ONE PRINCIPAL. ◆ &gt;_æææ://</text>
+<g stroke="#0b0c0e" stroke-width="3"><rect x="60" y="92" width="34" height="78" fill="#f5c400"/><rect x="104" y="92" width="34" height="78" fill="#1f5fdc"/><rect x="148" y="92" width="34" height="78" fill="#1f9d55"/></g>
+<text x="60" y="250" font-size="74" font-weight="700" fill="#0b0c0e" font-family="Inter, Helvetica, Arial, sans-serif" letter-spacing="-1">LOCAL_AGENT</text>
+<text x="62" y="292" font-size="22" fill="#0b0c0e" fill-opacity=".72">Agente local · ejecución con evidencia</text>
+<g fill="none" stroke="#0b0c0e" stroke-width="2.5" stroke-linecap="round">
+<circle cx="1010" cy="190" r="96"/><circle cx="1010" cy="190" r="60" stroke-dasharray="4 8"/>
+<path d="M914 190H780M1106 190h70M1010 94V60M1010 286v40"/><path d="M780 190v-80h-60M780 190v80h-40"/>
+<circle cx="720" cy="110" r="6" fill="#0b0c0e"/><circle cx="740" cy="270" r="6" fill="#0b0c0e"/></g>
+<text x="1010" y="204" font-size="40" font-weight="700" text-anchor="middle" fill="#0b0c0e">🫵</text>
+<text x="1176" y="340" font-size="14" text-anchor="end" fill="#0b0c0e" fill-opacity=".6">æ:// · ae:repo:local_agent</text>
+</svg>
